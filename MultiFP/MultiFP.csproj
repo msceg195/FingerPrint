@@ -108,6 +108,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\MultiFP.exe.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,6 +129,11 @@
     <None Include="Resources\iconfinder_fingerprint_46027.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\MultiFP.exe" />
+    <Content Include="bin\Debug\MultiFP.pdb" />
+    <Content Include="bin\Interop.zkemkeeper.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fingerprint-55.ico" />
     <Content Include="iconfinder_fingerprint_46027.ico" />
     <Content Include="Resources\noFileIcon.png" />
@@ -140,7 +146,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\" />
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
